@@ -105,6 +105,7 @@ height: 500px;
     height: 600px;
     margin: 0 auto;
     display: flex;
+    margin-bottom: 100px;
 
 }
 .lf-content{
@@ -138,3 +139,63 @@ font-weight: 400;}
     height: 464.65px;
 }
 /* midnighr section style end here */
+
+
+/* holiday secttion style start here */
+.holiday-content{
+width: 1220px;
+height: 600px;
+border: 2px solid red;
+margin: 0 auto;
+position: relative;
+}
+.holiday-text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068px;
+height: 260px;
+margin: 0 auto;
+}
+.holiday-text-content h5{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.holiday-text-content h1{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+}
+.holiday-text-content p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+}
+.solid-color{
+    width: 1220px;
+    height: 129px;
+    background-color: red;
+    position: absolute;
+    top: 78.6%;
+}
+.gift-box{
+    position: relative;
+    width: 74px;
+    height: 27px;
+    z-index: 1;
+}
+.gift-box img{
+    width: 374px;
+    height: 377px;
+}
+.discout{
+    position: absolute;
+    bottom: 14%;
+    left: 55%;
+}
+/* holiday secttion style start here */
