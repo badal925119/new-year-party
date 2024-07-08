@@ -144,8 +144,7 @@ font-weight: 400;}
 /* holiday secttion style start here */
 .holiday-content{
 width: 1220px;
-height: 600px;
-border: 2px solid red;
+height: 600px;;
 margin: 0 auto;
 position: relative;
 }
@@ -203,8 +202,7 @@ font-weight: 500;
 /* protfolio setion style starts here */
 .protfolio-content{
     width: 1220px;
-    height: 1100px;
-    border: 2px solid red;
+    height: 1100px;;
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -242,3 +240,47 @@ height: 100%;
     gap: 10px;
 }
 /* protfolio setion style end here */
+
+/* footer section style starts here */
+.footer-content{
+    width: 1300px;
+height: 609px;
+border: 2px solid red;
+margin: 0 auto;
+background-color: rgb(7, 2, 17);
+}
+.contact{
+    display: flex;
+    color: #ffffff;
+}
+.footer-first-section{
+    display: flex;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.hr{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.social-icon{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-end{
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+/* footer section style end here */
